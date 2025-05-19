@@ -1,0 +1,45 @@
+@media only screen and (max-width: 450px) {
+section{
+  margin-top: 20%;
+  overflow-y: auto;
+ }
+      nav a {
+          font-size: 40px;
+          color: #fff;
+          text-decoration: none;
+          padding: 26px;
+          text-align: center;
+          margin-top: -10px;
+      }
+      
+      nav {
+          position: fixed;
+          left: 0;
+          z-index: 100;
+          display: flex;
+          justify-content: space-around;
+          flex-direction: row;
+          height: 10vh;
+          width: 100%;
+          background: var(--secondary-color);
+      }
+    }
+  @media only screen and (max-width: 360px){
+    nav a {
+        font-size: 40px;
+        color: #fff;
+        text-decoration: none;
+        padding: 23px;
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    .main-container .image{
+      width: 30vh;
+      height: 30vh;
+      border-radius: 100%;
+      overflow: hidden;
+      box-shadow: 0 0 50px rgb(211,3,3);
+  }
+  }
+
