@@ -1,8 +1,26 @@
 @media only screen and (max-width: 450px) {
 section{
-  margin-top: 20%;
   overflow-y: auto;
  }
+  
+  body{
+        background-color: #191919;
+      margin-left: 0px;
+      }
+      
+      :root {
+      --primary-color: #191919;
+      --secondary-color: #6856f2b4;
+      --complimentary-color: #191919;
+      --contrast-color: #191919;
+      --light-color: #191919;
+      }
+      
+      .container {
+        background: #191919;
+        font-family: Montserrat, sans-serif;
+      }
+      
       nav a {
           font-size: 40px;
           color: #fff;
@@ -22,12 +40,14 @@ section{
           height: 10vh;
           width: 100%;
           background: var(--secondary-color);
-      }
+      }     
+ 
       .main-container .image{
+margin-top: 20%;
       width: 30vh;
       height: 30vh;
       border-radius: 100%;
-      overflow: hidden;
+      overflow-y: auto;
       box-shadow: 0 0 50px rgb(211,3,3);
   }
     }
